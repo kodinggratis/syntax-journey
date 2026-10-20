@@ -3,7 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Syntax Journey',
   description: 'Catatan perjalanan belajar kodinggratis by Lalu Wahyudi.',
-
+  
+  base: '/syntax-journey/',
   srcDir: '../',
 
   rewrites: {
@@ -24,7 +25,7 @@ export default defineConfig({
           { text: 'Paint Point Software Engineering', link: '/paint-point-software-engineering/' }
         ]
       },
-     { text: 'Tentang', link: '/about' },
+      { text: 'Tentang', link: '/about' },
     ],
 
     sidebar: {
